@@ -1,0 +1,15 @@
+<?
+$PERM["upload"]["24"]="T_15";
+$PERM["upload"]["21"]="T_15";
+$PERM["upload"]["20"]="T_15";
+$PERM["upload"]["*"]="R";
+$PERM["online"]["*"]="R";
+$PERM["desktop_app"]["*"]="R";
+$PERM["pub"]["*"]="R";
+$PERM["/"]["2"]="D";
+$PERM["/"]["12"]="T_10";
+$PERM["/"]["11"]="R";
+$PERM["/"]["*"]="D";
+$PERM["about"]["8"]="T_9";
+$PERM["company"]["8"]="T_9";
+?>
