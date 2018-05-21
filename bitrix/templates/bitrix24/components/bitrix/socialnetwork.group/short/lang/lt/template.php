@@ -1,0 +1,35 @@
+<?
+$MESS["SONET_C6_TOPIC"] = "Tema";
+$MESS["SONET_C6_DESCR"] = "Aprašymas";
+$MESS["SONET_C6_CREATED"] = "Sukurta";
+$MESS["SONET_C6_NMEM"] = "Dalyviai";
+$MESS["SONET_C6_TYPE"] = "Gruupės tipas";
+$MESS["SONET_C6_TYPE_O1"] = "Tai yra atvira grupė. Kiekvienas gali prisijungti.";
+$MESS["SONET_C6_TYPE_O2"] = "Tai yra privati grupė. Naudotojų narystė turi būri patvirtinta administratoriaus .";
+$MESS["SONET_C6_TYPE_V1"] = "Ši grupė yra matoma visiems.";
+$MESS["SONET_C6_TYPE_V2"] = "Tai yra nematoma grupė. Tik jos dalyviai gali ją matyti. ";
+$MESS["SONET_C6_BLOG_T"] = "Blogas";
+$MESS["SONET_C6_PHOTO_T"] = "Nuotraukos";
+$MESS["SONET_C6_FORUM_T"] = "Forumas";
+$MESS["SONET_C6_ACT_EDIT"] = "Redaguoti grupę";
+$MESS["SONET_C6_ACT_FEAT"] = "Redaguoti nustatymus";
+$MESS["SONET_C6_ACT_DELETE"] = "Pašalinti grupę";
+$MESS["SONET_C6_ACT_MOD"] = "Redaguoti moderatorius";
+$MESS["SONET_C6_ACT_MOD1"] = "Moderatoriai";
+$MESS["SONET_C6_ACT_USER"] = "Redaguoti naudotojus";
+$MESS["SONET_C6_ACT_BAN"] = "Ban sąrašas";
+$MESS["SONET_C6_ACT_USER1"] = "Dalyviai";
+$MESS["SONET_C6_ACT_REQU"] = "Pakviesti į grupę";
+$MESS["SONET_C6_ACT_VREQU"] = "Peržiūrėti prašymus prisijungti";
+$MESS["SONET_C6_ACT_VREQU_OUT"] = "Grupės kvietimai";
+$MESS["SONET_C6_ACT_JOIN"] = "Prisijungti prie grupės";
+$MESS["SONET_C6_ACT_EXIT"] = "Palikti grupę";
+$MESS["SONET_C6_MODS_TITLE"] = "Moderatoriai";
+$MESS["SONET_C6_NO_MODS"] = "Nėra moderatorių";
+$MESS["SONET_C6_USERS_T"] = "Dalyviai";
+$MESS["SONET_C6_AL_USERS"] = "Visi dalyviai";
+$MESS["SONET_C6_NO_USERS"] = "Nėra dalyvių";
+$MESS["SONET_C39_SEND_MESSAGE_GROUP"] = "Rašyti pranešymą";
+$MESS["SONET_C39_SEND_MESSAGE_GROUP_TITLE"] = "Rašyti pranešymą grupės nariams";
+$MESS["SONET_C39_ARCHIVE_GROUP"] = "Perkelti grupę į archyvą";
+?>

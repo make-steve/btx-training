@@ -1,0 +1,4 @@
+<?
+$MESS["WIDGET_CALENDAR_TITLE"] = "Próximos Eventos";
+$MESS["WIDGET_CALENDAR_DETAILS"] = "Más";
+?>

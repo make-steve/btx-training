@@ -1,0 +1,29 @@
+<?
+$MESS["CRM_ACTIVITY_ROW_COL_TTL_TYPE"] = "Tipas ";
+$MESS["CRM_ACTIVITY_ROW_COL_TTL_SUBJECT"] = "Pavadinimas";
+$MESS["CRM_ACTIVITY_ROW_COL_TTL_DEAD_LINE"] = "Terminas";
+$MESS["CRM_ACTIVITY_ROW_COL_TTL_RESPONSIBLE"] = "Atsakingas asmuo";
+$MESS["CRM_ACTIVITY_ROW_COL_TTL_PRIORITY"] = "Prioritetas";
+$MESS["CRM_UNDEFINED_VALUE"] = "[nenustatyta]";
+$MESS["CRM_ACTIVITY_EXECUTE"] = "Vykdyti";
+$MESS["CRM_ACTIVITY_SHOW_ALL"] = "Rodyti visus (#COUNT#)";
+$MESS["CRM_ACTIVITY_DLG_BTN_CANCEL"] = "Išeiti neišsaugant";
+$MESS["CRM_FF_OK"] = "Pasirinkti";
+$MESS["CRM_FF_CANCEL"] = "Atšaukti";
+$MESS["CRM_FF_CLOSE"] = "Uždaryti";
+$MESS["CRM_FF_SEARCH"] = "Ieškoti";
+$MESS["CRM_FF_NO_RESULT"] = "Deja, pagal jūsų paieškos užklausą rezultatų nerasta.";
+$MESS["CRM_FF_CHOISE"] = "Pridėti produktą";
+$MESS["CRM_FF_CHANGE"] = "Redaguoti";
+$MESS["CRM_FF_LAST"] = "Paskutinis";
+$MESS["CRM_ACTIVITY_CURRENT"] = "Veikla";
+$MESS["CRM_ACTIVITY_HISTORY"] = "Dienoraštis";
+$MESS["CRM_MEETING_STATUS_WAITING"] = "Laukiama";
+$MESS["CRM_CALL_STATUS_WAITING"] = "Laukiama";
+$MESS["CRM_MEETING_STATUS_COMPLETED"] = "Užbaigta";
+$MESS["CRM_CALL_STATUS_COMPLETED"] = "Užbaigta";
+$MESS["CRM_ACTIVITY_LIST_ADD_TASK"] = "Nauja užduotis";
+$MESS["CRM_ACTIVITY_LIST_ADD_CALL"] = "Naujas skambutis";
+$MESS["CRM_ACTIVITY_LIST_ADD_MEETING"] = "Naujas susitikimas";
+$MESS["CRM_ACTIVITY_LIST_ADD_EMAIL"] = "Siųsti žinutę";
+?>

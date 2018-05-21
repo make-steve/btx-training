@@ -1,0 +1,821 @@
+.clear {
+    clear: both;
+}
+a.bx-form-menu
+{
+	display: inline-block;
+	height: 33px;
+	margin-right: 4px;
+	vertical-align: top;
+}
+
+div.bx-crm-view-tab-block a.bx-form-menu
+{
+	margin: 9px 1px 1px 1px;
+	width: 27px;
+	height: 19px;
+	float: right;
+}
+
+div.bx-crm-view-tab-block a.bx-form-menu span
+{
+	background-position: 2px 2px;
+	background-repeat: no-repeat;
+	background-image:url(images/buttons/menu.gif);
+	border: 0 none;
+	cursor: pointer;
+	display: inline-block;
+	height: 17px;
+	width:25px;
+}
+
+div.bx-crm-view-tab-block a.bx-context-button:hover
+{
+	border:1px solid #AEB6C2;
+	background-color:#DBE3F2;
+	margin: 8px 0 0 0;
+	width: 27px;
+	height: 19px;
+	float: right;
+}
+
+/* settings window */
+option.bx-section {background-color:#E8E8E8 !important;}
+
+div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.form-settings
+{
+	background: url("images/buttons/settings.gif") 0 0 !important;
+}
+div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.form-settings-off
+{
+	background: url("images/buttons/settings_off.gif") 0 0 !important;
+}
+div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.form-settings-on
+{
+	background: url("images/buttons/settings_on.gif") 0 0 !important;
+}
+
+/*--------------------------------Financial overview---------------------*/
+
+.crm-project-financial-table {
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table.crm-project-financial-table tr td.crm-project-financial-header {
+    height: 50px;
+    background-color: #cbeffc;
+    border: solid 0 #5e6675;
+    vertical-align: middle;
+    padding: 0;
+}
+table.crm-project-financial-table tr td.crm-project-financial-header-left {
+    float: left;
+    width: 65%;
+}
+table.crm-project-financial-table tr td.crm-project-financial-header-left-inner {
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 15px;
+    white-space: nowrap;
+}
+
+table.crm-project-financial-table tr td.crm-project-financial-header .crm-project-financial-header-left .crm-project-financial-header-left-inner .crm-project-financial-header-title::before {
+    display: inline-block;
+    content: '';
+    height: 35px;
+    margin-left: -1px;
+    vertical-align: middle;
+    width: 25px;
+}
+table.crm-project-financial-table tr td.crm-project-financial-header .crm-project-financial-header-left .crm-project-financial-header-left-inner .crm-project-financial-header-title .crm-project-financial-header-title-text {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    max-height: 35px;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+table.crm-project-financial-table tr td.crm-project-financial-padding-white {
+	background-color: #fff;
+	height: 2px;
+	padding: 0;
+}
+
+table.crm-project-financial-table tr td.crm-project-financial-padding-blue {
+	background-color: #e1f5fd;
+	height: 12px;
+	padding: 0;
+}
+table.crm-project-financial-table tr td.crm-project-financial-content-cell {
+	padding: 0 15px;
+	background-color: #e1f5fd;
+	vertical-align: top;
+}
+table.crm-project-financial-table tr td.crm-project-financial-content-cell table.crm-project-financial-container {
+	width: 100%;
+	font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+table.crm-project-financial-table tr td.crm-project-financial-content-cell table.crm-project-financial-container tr td.project-financial-content-head {
+
+	font-weight: bold;
+	text-align: right;
+	color: #535c69;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px;
+    word-break: normal;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+table.crm-project-financial-table tr td.crm-project-financial-content-cell table.crm-project-financial-container tr td.project-financial-content-label {
+
+	text-align: right;
+	color: #535c69;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px 0px;
+    word-break: normal;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+table.crm-project-financial-table tr td.crm-project-financial-content-cell table.crm-project-financial-container tr td.project-financial-content-value {
+
+	text-align: right;
+	color: #535c69;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px;
+    word-break: normal;
+    line-height: 17px;
+    vertical-align: middle;	
+}
+
+table.crm-project-financial-table tr td.crm-project-financial-content-cell table.crm-project-financial-container tr td.value-underline {
+    border-bottom: 1px solid #b5d4e1;
+}
+table.crm-project-financial-table tr td.crm-project-financial-content-cell table.crm-project-financial-container tr td.value-bold {
+	font-weight: bold;
+}
+
+table.crm-project-financial-table tr td.crm-project-financial-content-cell table.crm-project-financial-container tr:nth-child(2n) td {
+    background-color: #d4ecf7;
+}
+
+/*-------------------------------------------------------- DEAL PROJECT--------------------------------------*/
+
+.crm-project-deal-table-wrap {
+    /*height: 300px;*/
+    background: #f0f4f5;
+}
+
+.crm-project-deal-table {
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table.crm-project-deal-table tr td.crm-project-deal-header {
+    background-color: #e3e8ea;
+    border: solid 0 #5e6675;
+    height: 50px;
+    vertical-align: middle;
+    padding: 0;
+}
+table.crm-project-deal-table tr td.crm-project-deal-header-left {
+    float: left;
+    width: 65%;
+}
+table.crm-project-deal-table tr td.crm-project-deal-header-left-inner {
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 15px;
+    white-space: nowrap;
+}
+
+table.crm-project-deal-table tr td.crm-project-deal-header .crm-project-deal-header-left .crm-project-deal-header-left-inner .crm-project-deal-header-title::before {
+    display: inline-block;
+    content: '';
+    height: 35px;
+    margin-left: -1px;
+    vertical-align: middle;
+    width: 25px;
+}
+table.crm-project-deal-table tr td.crm-project-deal-header .crm-project-deal-header-left .crm-project-deal-header-left-inner .crm-project-deal-header-title .crm-project-deal-header-title-text {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    max-height: 35px;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+/*-------------------------------------------------------- PROJECT DEAL DETAIL --------------------------------------*/
+
+table.crm-project-deal tr td.crm-project-deal-detail {
+    padding: 20px;
+}
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table {
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table tr td.crm-project-deal-financial-header {
+    height: 50px;
+    background-color: #e1f5fd;
+    border: solid 0 #5e6675;
+    vertical-align: middle;
+    padding: 0;
+}
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table tr td.crm-project-deal-financial-header .crm-project-deal-financial-header-left {
+    float: left;
+    width: 65%;
+}
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table tr td.crm-project-deal-financial-header .crm-project-deal-financial-header-left .crm-project-deal-financial-header-left-inner {
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 15px;
+    white-space: nowrap;
+}
+
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table tr td.crm-project-deal-financial-header .crm-project-deal-financial-header-left .crm-project-deal-financial-header-left-inner .crm-project-deal-financial-header-title::before {
+    display: inline-block;
+    content: '';
+    height: 35px;
+    margin-left: -1px;
+    vertical-align: middle;
+    width: 1px;
+}
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table tr td.crm-project-deal-financial-header .crm-project-deal-financial-header-left .crm-project-deal-financial-header-left-inner .crm-project-deal-financial-header-title .crm-financial-project-header-title-text {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    max-height: 35px;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table tr td.crm-project-deal-financial-padding-white {
+    background-color: #fff;
+    height: 2px;
+    padding: 0;
+}
+
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table tr td.crm-project-deal-financial-padding-blue {
+    background-color: #f0fafe;
+    height: 12px;
+    padding: 0;
+}
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table tr td.crm-project-deal-financial-content-cell {
+    padding: 0 15px;
+    background-color: #f0fafe;
+    vertical-align: top;
+}
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-table tr td.crm-project-deal-financial-content-cell table.crm-project-deal-financial-table {
+    width: 100%;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-container tr td.project-deal-financial-head {
+    font-weight: bold;
+    text-align: right;
+    color: #535c69;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px;
+    word-break: normal;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-container tr td.project-deal-financial-label {
+
+    text-align: right;
+    color: #535c69;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px 0px;
+    word-break: normal;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-container tr td.project-deal-financial-value {
+
+    text-align: right;
+    color: #535c69;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px;
+    word-break: normal;
+    line-height: 17px;
+    vertical-align: middle; 
+}
+
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-container tr td.value-underline {
+    border-bottom: 1px solid #b5d4e1;
+}
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-container tr td.value-bold {
+    font-weight: bold;
+}
+
+table.crm-project-deal tr td.crm-project-deal-detail table.crm-project-deal-financial-container tr:nth-child(2n) td {
+    background-color: #fcfdff;
+}
+
+/*-------------------------------------------------------- DEAL TASK PROJECT--------------------------------------*/
+
+table.crm-project-deal tr td.crm-project-deal-task {
+    padding: 20px;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table {
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #d9d9d9;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-header {
+    border-radius: 3px;
+    background-image: linear-gradient(to top, #868c95, #a9afb5);
+    border: solid 1px #d9d9d9;
+    height: 40px;
+    vertical-align: middle;
+    padding: 0;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-header .crm-project-deal-task-header-left {
+    float: left;
+    width: 65%;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-header .crm-project-deal-task-header-left .crm-project-deal-task-header-left-inner {
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 15px;
+    white-space: nowrap;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-header .crm-project-deal-task-header-left .crm-project-deal-task-header-left-inner .crm-project-deal-task-header-title::before {
+    display: inline-block;
+    content: '';
+    height: 35px;
+    margin-left: -1px;
+    vertical-align: middle;
+    width: 1px;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-header .crm-project-deal-task-header-left .crm-project-deal-task-header-left-inner .crm-project-deal-task-header-title .crm-project-deal-task-header-title-text,
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-header .crm-project-deal-task-header-left .crm-project-deal-task-header-left-inner .crm-project-deal-task-header-title .crm-project-deal-task-header-title-text a.task-detail-title {
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.68;
+    letter-spacing: -0.2px;
+    max-width: 100%;
+    color: #ffffff;
+    line-height: 20px;
+    max-height: 35px;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-financial-project-task-header-white {
+    background-color: #ffffff;
+    height: 15px;
+    padding: 0;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell {
+    padding: 0 20px;
+    background: #ffffff;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info .task-col {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    float: left;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info .task-col-2 {
+    width: 20%;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info .task-col-4 {
+    width: 40%;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info .task-col-5 {
+    width: 50%;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info .position-right {
+    text-align: right;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info .task-col .task-col-label {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2;
+    color: #565e6a;
+    display: block;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info .task-col .task-col-value {
+    font-size: 15px;
+    line-height: 1;
+    color: #565e6a;
+    display: block;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info .task-col .task-col-value a.task_detail {
+    font-size: 15px;
+    line-height: 1;
+    color: #2067b0;
+    display: block;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-detail-info {
+    border: solid 2px #f7f9fa;
+    width: 100%;
+    padding-top: 25px;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-detail-info table.crm-project-deal-task-content-detail-info-table {
+
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-detail-info table.crm-project-deal-task-content-detail-info-table tr th.project-deal-task-head {
+
+    font-weight: bold;
+    text-align: right;
+    color: #535c69;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px;
+    word-break: normal;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-detail-info table.crm-project-deal-task-content-detail-info-table tr td.project-deal-task-content-label {
+
+    text-align: right;
+    color: #535c69;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px 0px;
+    word-break: normal;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-detail-info table.crm-project-deal-task-content-detail-info-table tr td.project-deal-task-content-value {
+
+    text-align: right;
+    color: #535c69;
+    font-size: 14px;
+    width: 140px;
+    padding: 10px;
+    word-break: normal;
+    line-height: 17px;
+    vertical-align: middle; 
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-detail-info table.crm-project-deal-task-content-detail-info-table tr td.value-underline { 
+    border-bottom: 1px solid #d9d9d9;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-detail-info table.crm-project-deal-task-content-detail-info-table tr td.value-bold {
+    font-weight: bold;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-detail-info table.crm-project-deal-task-content-detail-info-table tr:nth-child(2n) td {
+    background-color: #f7f9fa;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-footer-info {
+    width: 100%;
+    margin: 30px 0 20px 0;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-footer-info .task-col {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    float: left;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-footer-info .task-col-2 {
+    width: 20%;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-footer-info .task-col-4 {
+    width: 40%;
+}
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-footer-info .task-col-5 {
+    width: 50%;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-footer-info .position-right {
+    text-align: right;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-footer-info .task-col .task-col-label {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2;
+    color: #565e6a;
+    display: block;
+}
+
+table.crm-project-deal tr td.crm-project-deal-task table.crm-project-deal-task-table tr td.crm-project-deal-task-content-cell div.crm-project-deal-task-content-header-info .task-col .task-col-value {
+    font-size: 15px;
+    line-height: 1;
+    color: #565e6a;
+    display: block;
+}
+
+.sliderpercentage {
+    padding-left: 4%;
+    padding-right: 2%;
+    width: 100%;
+    text-align: left;
+    table-layout: fixed;
+    font-size: 11px;
+    font-weight: normal;
+    color: #565e6a;
+    line-height: 1.36;
+    letter-spacing: -0.1px;
+}
+
+.slider-container{
+    width: 100%;
+    float: left;
+}
+
+.meter { 
+    height: 10px;
+    position: relative;
+    margin: 2px;
+    width: 100%;
+    background: #DCDCDC;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 4px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+    box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+    float: left;
+}
+
+.meter > div {
+    display: block;
+    height: 100%;
+    border-radius: 6px !important;
+       -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+           -moz-border-radius-topright: 8px;
+        -moz-border-radius-bottomright: 8px;
+               border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        -webkit-border-top-left-radius: 20px;
+     -webkit-border-bottom-left-radius: 20px;
+            -moz-border-radius-topleft: 20px;
+         -moz-border-radius-bottomleft: 20px;
+                border-top-left-radius: 20px;
+             border-bottom-left-radius: 20px;
+    background-color: #A3DC3D;
+    float: left;
+    position: relative;
+}
+.meter > div:after, .animate > div > div {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-image: 
+       -webkit-gradient(linear, 0 0, 100% 100%, 
+          color-stop(.25, rgba(255, 255, 255, .2)), 
+          color-stop(.25, transparent), color-stop(.5, transparent), 
+          color-stop(.5, rgba(255, 255, 255, .2)), 
+          color-stop(.75, rgba(255, 255, 255, .2)), 
+          color-stop(.75, transparent), to(transparent)
+       );
+    background-image: 
+        -moz-linear-gradient(
+          -45deg, 
+          rgba(255, 255, 255, .2) 25%, 
+          transparent 25%, 
+          transparent 50%, 
+          rgba(255, 255, 255, .2) 50%, 
+          rgba(255, 255, 255, .2) 75%, 
+          transparent 75%, 
+          transparent
+       );
+    z-index: 1;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    -webkit-animation: move 2s linear infinite;
+       -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+           -moz-border-radius-topright: 8px;
+        -moz-border-radius-bottomright: 8px;
+               border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        -webkit-border-top-left-radius: 20px;
+     -webkit-border-bottom-left-radius: 20px;
+            -moz-border-radius-topleft: 20px;
+         -moz-border-radius-bottomleft: 20px;
+                border-top-left-radius: 20px;
+             border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+
+.animate > div:after {
+    display: none;
+}
+
+@-webkit-keyframes move {
+    0% {
+       background-position: 0 0;
+    }
+    100% {
+       background-position: 50px 50px;
+    }
+}
+
+.orange > div {
+    background-color: #FC7C2B;
+}
+
+.red > div {
+    background-color: #E22A3D;
+}
+
+.nostripes > div > div, .nostripes > div:after {
+    -webkit-animation: none;
+    background-image: none;
+}
+
+.meter.firstd {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.meter.firstd > div {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.meter.innertds {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0px;
+}
+
+.meter.innertds > div {
+    border-radius: 0px !important;
+}
+
+.meter.lasttd {
+    padding-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.meter.lasttd > div {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.meter > div.tdradiusright{
+    border-top-right-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+}
+
+.meter .showpercentage {
+    background-color: transparent;
+    font-weight: bold;
+    text-align: right;
+    float: left;
+    margin-top: -2px;
+    z-index: 1;
+    position: absolute;
+}
+
+.meter .showpercentagemax {
+    position: relative;
+    margin-left: 28px;
+    margin-top: -12px;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+}
+
+.showborderlines {
+    border-right: 1px solid #C1C1C1;
+    border-left: 1px solid #C1C1C1;
+}
+
+.showborderlinesend {
+    border-left: 1px solid #C1C1C1;
+}
+
+.hideborderlinesflag{
+    display: none;
+}
+
+.showborderlinesflag{
+    position: absolute;
+    z-index: 2;
+    height: 18px;
+    margin-top: 2px;
+    width: 6px;
+}
+
+.webform-buttons {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.crm-project-deal-table-placeholder .crm-lead-header-contact-btn {
+    float: right;
+    margin-right: 1%;
+}
+
+.crm-tasks-title-edit, .crm-tasks-title-add, .crm-tasks-title-del, .crm-tasks-title-lock, .crm-tasks-title-unlock {
+    background: url(/assets/img/crm-control-panel-sprite-27.png) no-repeat 100px 100px;
+    cursor: pointer;
+    display: inline-block;
+    height: 39px;
+    opacity: 0.6;
+    vertical-align: top;
+    width: 29px;
+}
+
+.crm-tasks-title-edit:hover, .crm-tasks-title-add:hover, .crm-tasks-title-del:hover, .crm-tasks-title-lock:hover, .crm-tasks-title-unlock:hover {
+    opacity: 1;
+}
+
+.crm-tasks-title-edit {
+    background-position: center -3122px;
+    width: 19px;
+}
+.crm-tasks-title-del {
+    background-position: center -3221px;
+}
+.crm-tasks-title-lock {
+    background-position: center -1100px;
+}
+.crm-tasks-title-unlock {
+    background-position: center -1500px;
+}
+
+.crm-project-header-contact-btns {
+    padding-top: 3%;
+}
+
+.crm-project-deal-task-header .crm-project-header-contact-btns {
+    padding-top: 0%;
+}
+
+.crm-lead-header-contact-btn-menu {
+    display: none;
+}
+
+a.open_deal {
+    background: url(/assets/img/deal_link.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /*background-size: cover;*/
+    position: relative;
+    top: 7px;
+    margin-left: 5px;
+}
+
+span#deal_finan_showhide {
+    float: right;
+    margin-right: 14px;
+}
+
+span#deal_finan_showhide.finanhide {
+    background-position: center -3814px;
+}
+
+span#deal_finan_showhide.finanshow {
+    background-position: center -3785px;
+}

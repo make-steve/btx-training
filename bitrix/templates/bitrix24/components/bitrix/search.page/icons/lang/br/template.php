@@ -1,0 +1,36 @@
+<?
+$MESS["CT_BSP_ALL"] = "(Tudo)";
+$MESS["CT_BSP_GO"] = "Pesquisar";
+$MESS["CT_BSP_ITEM_TAGS"] = "Tags";
+$MESS["CT_BSP_DATE_CHANGE"] = "Moficado";
+$MESS["CT_BSP_FOUND"] = "Encontrado";
+$MESS["CT_BSP_ORDER"] = "Ordenados por";
+$MESS["CT_BSP_ORDER_BY_RANK"] = "relevância";
+$MESS["CT_BSP_ORDER_BY_DATE"] = "data";
+$MESS["CT_BSP_ADVANCED_SEARCH"] = "Procurar avançada";
+$MESS["CT_BSP_WHERE_LABEL"] = "Onde";
+$MESS["CT_BSP_TAGS"] = "tags";
+$MESS["CT_BSP_WHERE"] = "seção";
+$MESS["CT_BSP_EVERYWHERE"] = "Tudo";
+$MESS["CT_BSP_WHEN"] = "data";
+$MESS["CT_BSP_DATES_FROM_TO"] = "Apartir de #FROM# para #TO#";
+$MESS["CT_BSP_DATES_FROM"] = "Apartir de #FROM#";
+$MESS["CT_BSP_DATES_TO"] = "para #TO#";
+$MESS["CT_BSP_DATES_ALL"] = "Tudo";
+$MESS["CT_BSP_ERROR"] = "erro na procura da frase";
+$MESS["CT_BSP_CORRECT_AND_CONTINUE"] = "Por favor! Corrija a frase de pesquisa e tente novamente.";
+$MESS["CT_BSP_LOGIC"] = "Operadores lógicos:";
+$MESS["CT_BSP_OPERATOR"] = "Operadores";
+$MESS["CT_BSP_SYNONIM"] = "Sinonimos";
+$MESS["CT_BSP_DESCRIPTION"] = "Descrição";
+$MESS["CT_BSP_AND"] = "E";
+$MESS["CT_BSP_AND_ALT"] = "Operador <i>logical and</i>está implícita e pode ser omitido: a query &quot;contact information&quot; is fully equivalent to &quot;contact and information&quot;.";
+$MESS["CT_BSP_OR"] = "ou";
+$MESS["CT_BSP_OR_ALT"] = "Operador<i>logical or</i> permite procurar entidades que contenham pelo menos um dos operandos.";
+$MESS["CT_BSP_NOT"] = "não";
+$MESS["CT_BSP_NOT_ALT"] = "Posição";
+$MESS["CT_BSP_BRACKETS_ALT"] = "<i>Round brackets</i> define the logical operator precedence.";
+$MESS["CT_BSP_NOTHING_TO_FOUND"] = "Infelizmente, não encontrou nenhum documento a sua pesquisa.";
+$MESS["CT_BSP_KEYBOARD_WARNING"] = "Idioma de entrada de consulta mudou para \"#query#\".";
+$MESS["CT_BSP_SINTAX"] = "<B>Sintaxe de consulta de busca:</b><br /><br />Uma consulta de busca comum é uma ou mais palavras, por exemplo:<br / > <i>informações de contato< /i> <br / >Esta consulta irá encontrar páginas que contenham ambas as palavras da consulta.<br /><br />Operadores lógicos permitem construir perguntas mais complexas, por exemplo: <br /><i>informações de contato ou telefone</i><br />Esta consulta irá encontrar páginas que contenham uma das palavras &quot;contato&quot; e &quot;informação&quot; ou &quot;telefone&quot;.<br /><br /> <i> informações de contato não telefone</i><br /> Esta consulta irá encontrar páginas que contenham palavras &quot;contato&quot; e &quot;informações&quot; mas não &quot;telefone&quot;.<br /> Você pode usar parênteses para fazer consultas mais complexas.<br />";
+?>

@@ -1,0 +1,4 @@
+<?
+$MESS ['WIDGET_CALENDAR_TITLE'] = "Heute";
+$MESS ['WIDGET_CALENDAR_DETAILS'] = "Mehr";
+?>

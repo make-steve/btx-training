@@ -1,0 +1,3 @@
+<?
+$MESS["CRM_DEAL_SHOW_TITLE"] = "#ID# #TITLE#";
+?>

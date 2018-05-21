@@ -1,0 +1,35 @@
+<?
+$MESS["IM_MESSENGER_OPEN_CALL2"] = "Ligar";
+$MESS["IM_MESSENGER_OPEN_MESSENGER_CP"] = "Abrir Web Messenger";
+$MESS["IM_MESSENGER_OPEN_NOTIFY"] = "Mostrar notificações";
+$MESS["IM_MESSENGER_OPEN_EMAIL"] = "Ver e-mail";
+$MESS["IM_MESSENGER_OPEN_LF"] = "Ver fluxo de atividade";
+$MESS["IM_MESSENGER_OPEN_NETWORK"] = "Ir para Bitrix24.Network";
+$MESS["IM_MESSENGER_OPEN_MESSENGER"] = "Abrir Bate-papo e Chamadas";
+$MESS["IM_MESSENGER_OPEN_SEARCH"] = "Pesquisar empregados e bate-papos";
+$MESS["IM_MESSENGER_GO_TO_APPS"] = "Baixar aplicativos para celular e para computador";
+$MESS["IM_MESSENGER_ONLINE"] = "On-line";
+$MESS["IM_MESSENGER_CREATE_CHAT"] = "Criar novo bate-papo";
+$MESS["IM_MESSENGER_OPEN_CALL"] = "Abrir Web Messenger";
+$MESS["IM_FULLSCREEN_COPYRIGHT"] = "&copy; 2001-2016 Bitrix, Inc.";
+$MESS["IM_FULLSCREEN_BACK"] = "Fechar";
+$MESS["IM_FULLSCREEN_BG_TRANSPARENT"] = "Transparente";
+$MESS["IM_FULLSCREEN_BG_0"] = "Bitrix24";
+$MESS["IM_FULLSCREEN_BG_1"] = "Pedras";
+$MESS["IM_FULLSCREEN_BG_2"] = "Carro";
+$MESS["IM_FULLSCREEN_BG_3"] = "Estrada";
+$MESS["IM_FULLSCREEN_BG_4"] = "Areia";
+$MESS["IM_FULLSCREEN_BG_5"] = "Natureza";
+$MESS["IM_FULLSCREEN_BG_6"] = "Montanhas";
+$MESS["IM_FULLSCREEN_BG_7"] = "Capim seco";
+$MESS["IM_FULLSCREEN_BG_8"] = "Lago de montanha";
+$MESS["IM_FULLSCREEN_BG_9"] = "Yacht";
+$MESS["IM_FULLSCREEN_BG_10"] = "Paris";
+$MESS["IM_FULLSCREEN_BG_11"] = "Praia";
+$MESS["IM_FULLSCREEN_BG_12"] = "Céu";
+$MESS["IM_FULLSCREEN_BG_TITLE"] = "Contexto";
+$MESS["IM_FULLSCREEN_APPS"] = "Baixar apps";
+$MESS["IM_MESSENGER_GO_TO_APPS_LINK"] = "https://www.bitrix24.com/apps/mobile-and-desktop-apps.php";
+$MESS["IM_FULLSCREEN_BG_NUMBER"] = "#";
+$MESS["IM_MESSENGER_OPEN_OL"] = "Visualizar bate-papo do Canal Aberto";
+?>

@@ -1,0 +1,29 @@
+<?
+$MESS["ISL_PERSONAL_BIRTHDAY"] = "Fecha de cumpleaños";
+$MESS["ISL_PERSONAL_PHONE"] = "Teléfono";
+$MESS["INTR_STR_UF_HEAD"] = "Jefe del departamento ";
+$MESS["ISL_PERSONAL_SKYPE"] = "Skype";
+$MESS["ISL_PERSONAL_EMAIL"] = "Email";
+$MESS["INTR_ISP_PM"] = "Enviar mensaje";
+$MESS["INTR_ISP_VIDEO_CALL"] = "Vídeo llamada";
+$MESS["INTR_ISP_TASK"] = "Agregar tarea";
+$MESS["INTR_ISP_IS_ONLINE"] = "En línea";
+$MESS["INTR_ISP_IS_ABSENT"] = "Fuera de la oficina";
+$MESS["INTR_ISP_EDIT_USER"] = "Editar";
+$MESS["INTR_EXTRANET"] = "(extranet)";
+$MESS["INTR_ISP_DEACTIVATE_USER"] = "Denegar el acceso";
+$MESS["INTR_ISP_DELETE_USER"] = "Eliminar";
+$MESS["INTR_ISP_RESTORE_USER"] = "Permitir el acceso";
+$MESS["INTR_CONFIRM_FIRE"] = "El empleado no podrá iniciar sesión en el portal, no se mostrará en la estructura de la empresa. Sin embargo, todos sus datos personales (archivos, mensajes, tareas, etc.) permanecerá intactos.\\n\\n¿Está seguro que desea denegar el acceso a este empleado?";
+$MESS["INTR_CONFIRM_RESTORE"] = "El empleado será capaz de iniciar sesión en el portal y se mostrará en la estructura de la empresa.\\n\\n¿Está seguro de que desea permitir el acceso de este empleado?";
+$MESS["INTR_ISP_INVITE"] = "Invitar de nuevo";
+$MESS["INTR_ISP_INVITE_ACCESS"] = "La invitación ha sido enviada";
+$MESS["INTR_CONFIRM_DELETE"] = "La invitación se borrará irrevocablemente.\\n\\nEstá seguro que desea eliminar al empleado?";
+$MESS["INTR_IS_ADMIN"] = "Administrator";
+$MESS["INTR_IS_HEAD"] = "Supervisor";
+$MESS["INTR_USER_extranet"] = "Extranet";
+$MESS["INTR_USER_fired"] = "Despedido";
+$MESS["INTR_USER_inactive"] = "Invitado";
+$MESS["INTR_USER_admin"] = "Administrator";
+$MESS["INTR_ISP_DELETE_ERROR"] = "Error! El usuario no se ha eliminado.";
+?>
