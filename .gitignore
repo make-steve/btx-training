@@ -104,7 +104,7 @@ bitrix/php_interface/make_lang/backup/
 bitrix/php_interface/include/make_backup/
 
 upload/
-/bitrix/*
 !/bitrix/php_interface/
 !/bitrix/templates/
+/bitrix/*
 freshbitrix/*
