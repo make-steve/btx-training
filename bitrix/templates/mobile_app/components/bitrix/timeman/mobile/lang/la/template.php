@@ -1,0 +1,37 @@
+<?
+$MESS["TM_STATUS_WORK"] = "Trabajando";
+$MESS["TM_STATUS_COMPLETED"] = "Salida";
+$MESS["TM_STATUS_START"] = "Ingreso";
+$MESS["TM_STATUS_PAUSED"] = "En descanso";
+$MESS["TM_STATUS_EXPIRED"] = "Usted <strong>no ha cerrado</ strong><br/>el día hábil anterior.";
+$MESS["PULLDOWN_PULL"] = "Pulse hacia abajo para actualizar";
+$MESS["PULLDOWN_DOWN"] = "Suéltelo para actualizar";
+$MESS["PULLDOWN_LOADING"] = "Actualización de datos...";
+$MESS["PAGE_TITLE1"] = "Reporte diario";
+$MESS["TM_ERROR1"] = "No se puede guardar el informe. Por favor, ingrese primero";
+$MESS["TM_ERROR2"] = "Usted no registro su salida el día de ayer";
+$MESS["TM_PLACEHODER0"] = "El informe de trabajo es obligatorio. Por favor envíe el suyo.";
+$MESS["TM_PLACEHODER1"] = "Por favor, escriba un informe conciso sobre sus actividades.";
+$MESS["PAGE_TITLE2"] = "Día de trabajo";
+$MESS["TM_SAVE"] = "Guardar";
+$MESS["TM_BEGINNING"] = "iniciar";
+$MESS["TM_END"] = "finalizar";
+$MESS["TM_PAUSE"] = "descanso";
+$MESS["TM_DURATION"] = "Duración<br>del día laborable";
+$MESS["TM_DURATION2"] = "Duración del día laborable";
+$MESS["TM_REASON2"] = "Razón para el cambio";
+$MESS["TM_REASON_START"] = "Razón para el cambio";
+$MESS["TM_REASON_END"] = "Razón para el cambio";
+$MESS["TM_START"] = "Ingreso";
+$MESS["TM_RESUME"] = "Continuar";
+$MESS["TM_PAUSE2"] = "Descanso";
+$MESS["TM_FINISH"] = "Salida";
+$MESS["TM_MENU_START"] = "Iniciar usando la hora actual";
+$MESS["TM_MENU_START1"] = "Iniciar usando otro tiempo";
+$MESS["TM_MENU_STOP"] = "Cancelar cambios en el tiempo";
+$MESS["TM_MENU_STOP1"] = "Terminar usando otro tiempo";
+$MESS["TM_MENU_EDIT"] = "Modificar";
+$MESS["TM_MENU_REPORT"] = "Reporte diario";
+$MESS["TM_MENU_SAVE"] = "Guardar";
+$MESS["TM_MENU_CANCEL"] = "Cancelar";
+?>

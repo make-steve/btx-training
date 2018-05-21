@@ -1,0 +1,86 @@
+div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.event
+{
+	background: url("images/popup/event.gif") no-repeat  0 0 !important;
+}
+
+div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.quote
+{
+	background: url("images/popup/quote.png") no-repeat  0 0 !important;
+}
+
+div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.invoice
+{
+	background: url("images/popup/invoice.png") no-repeat  0 0 !important;
+}
+
+div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.task
+{
+	background: url("images/popup/task.gif") no-repeat  0 0 !important;
+}
+
+div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.calendar
+{
+	background: url("images/popup/calendar.gif") no-repeat 0 0 !important;
+}
+
+div.bx-popup-menu td.popupmenu div.popupitem td.gutter div.bizproc {
+	background: url("images/popup/bizproc.gif") no-repeat 2px 0 !important;
+ 	width: 18px !important;
+ 	height: 18px !important;
+}
+a.bizproc {
+	display:block; 
+	padding-right:20px;
+}
+a.bizproc_status_attention {
+	background: url("images/bizproc/bizproc_attention.gif") no-repeat right center;
+}
+
+a.bizproc_status_inprogress {
+	background: url("images/bizproc/bizproc_attention.gif") no-repeat right center;
+}
+
+.crm-list-end-deal-block {
+	border: none;
+    border-spacing: 0;
+    padding: 0;
+    width: 330px;
+}
+
+.crm-list-end-deal {
+	padding: 0;
+}
+
+.popupheader{
+	padding: 20px 18px;
+    background-color: #D3E8F0;
+    color: black;
+    font: 22px/22px "OpenSans-Light", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.popupbody{
+	padding: 19px;
+    font: 12px/17px "OpenSans-Light", Helvetica, Arial, sans-serif;
+    color: #858A91;
+    font-weight: bold;
+}
+
+.crm-list-end-deal .popup-window-close-icon {
+	top: 19px;
+    right: 12px;
+    width: 27px;
+}
+
+.crm-list-end-deal .popup-window-close-icon:after {
+	width: 14px;
+    height: 12px;
+}
+
+.crm-list-end-deal-text {
+	padding: 0;
+}
+
+.crm-list-end-deal-buttons-block {
+	padding: 0 0 22px 0;
+}

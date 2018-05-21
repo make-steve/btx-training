@@ -1,0 +1,44 @@
+.crm-list-end-deal-block {
+    border: none;
+    border-spacing: 0;
+    padding: 0;
+    width: 330px;
+}
+
+.crm-list-end-deal {
+    padding: 0;
+}
+
+.dealpopupheader{
+    padding: 20px 18px;
+    background-color: #D3E8F0;
+    color: black;
+    font: 22px/22px "OpenSans-Light", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.dealpopupbody{
+    padding: 19px;
+    font: 12px/17px "OpenSans-Light", Helvetica, Arial, sans-serif;
+    color: #858A91;
+    font-weight: bold;
+}
+
+.crm-list-end-deal .popup-window-close-icon {
+    top: 19px;
+    right: 12px;
+    width: 27px;
+}
+
+.crm-list-end-deal .popup-window-close-icon:after {
+    width: 14px;
+    height: 12px;
+}
+
+.crm-list-end-deal-text {
+    padding: 0;
+}
+
+.crm-list-end-deal-buttons-block {
+    padding: 0 0 22px 0;
+}

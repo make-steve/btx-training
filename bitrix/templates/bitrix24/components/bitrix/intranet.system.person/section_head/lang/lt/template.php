@@ -1,0 +1,29 @@
+<?
+$MESS["ISL_PERSONAL_BIRTHDAY"] = "Gimimo data";
+$MESS["ISL_PERSONAL_PHONE"] = "Telefonas";
+$MESS["INTR_STR_UF_HEAD"] = "Skyriaus vadovas";
+$MESS["ISL_PERSONAL_SKYPE"] = "Skype";
+$MESS["ISL_PERSONAL_EMAIL"] = "El.paštas";
+$MESS["INTR_ISP_PM"] = "Siųsti pranešimą";
+$MESS["INTR_ISP_VIDEO_CALL"] = "Vaizdo skambutis";
+$MESS["INTR_ISP_TASK"] = "Pridėti užduotį";
+$MESS["INTR_ISP_IS_ONLINE"] = "Online";
+$MESS["INTR_ISP_IS_ABSENT"] = "Nėra biure";
+$MESS["INTR_ISP_EDIT_USER"] = "Redaguoti";
+$MESS["INTR_EXTRANET"] = "(extranet)";
+$MESS["INTR_ISP_DEACTIVATE_USER"] = "Uždrausti priėjimą";
+$MESS["INTR_ISP_DELETE_USER"] = "Pašalinti";
+$MESS["INTR_ISP_RESTORE_USER"] = "Leisti priėjimą";
+$MESS["INTR_CONFIRM_FIRE"] = "Darbuotojas negalės prisijungti prie portalo, nebus rodomas įmonės struktūroje. Tačiau visi jo arba jos asmens duomenys (failai, pranešimai, užduotys ir tt) išliks nepakitę. \\n\\nAr tikrai norite uždrausti prieigą šiam darbuotojui?";
+$MESS["INTR_CONFIRM_RESTORE"] = "Darbuotojas galės prisijungti prie portalo ir bus rodomas įmonės struktūroje. \\n\\nAr tikrai norite suteikti prieigą šiam darbuotojui?";
+$MESS["INTR_ISP_INVITE"] = "Pakviesti dar kartą";
+$MESS["INTR_ISP_INVITE_ACCESS"] = "Kvietimas buvo išsiųstas";
+$MESS["INTR_CONFIRM_DELETE"] = "Kvietimas bus pašalintas neatšauliamai. Ar tikrai norite pašalinti  šį darbuotoją?";
+$MESS["INTR_IS_ADMIN"] = "Administratorius";
+$MESS["INTR_IS_HEAD"] = "Vadovas";
+$MESS["INTR_USER_extranet"] = "Extranet";
+$MESS["INTR_USER_fired"] = "Atleistas";
+$MESS["INTR_USER_inactive"] = "Pakviestas";
+$MESS["INTR_USER_admin"] = "Administratorius";
+$MESS["INTR_ISP_DELETE_ERROR"] = "Klaida! Naudotojas nebuvo pašalintas. ";
+?>

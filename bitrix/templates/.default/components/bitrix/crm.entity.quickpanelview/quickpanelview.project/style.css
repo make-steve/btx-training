@@ -1,0 +1,794 @@
+/*================================== START OF QUICK PANEL ====================================*/
+.crm-project-header-table-wrap {}
+
+.crm-project-header-table-inner-wrap {
+	background-color: #ffffff;
+}
+
+.crm-project-header-table-wrap-fixed .crm-project-header-table-inner-wrap {
+	-webkit-box-shadow: 0 7px 9px 0 #c6c9cb;
+	box-shadow: 0 7px 9px 0 #c6c9cb;
+	margin: 0 -15px;
+	padding: 0 15px;
+}
+
+.crm-project-header-table {
+	border-spacing: 0;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.crm-project-header-header {
+	background-color: #cceffb;
+	border-radius: 1px 1px 0 0;
+	height: 52px;
+	vertical-align:top;
+	padding: 0;
+}
+
+.crm-project-header-header-left {
+	float: left;
+	width: 65%;
+}
+
+.crm-project-header-table-company .crm-project-header-header-left {
+	width: 85%;
+}
+
+.crm-project-header-left-inner {
+	height: 52px;
+	overflow: hidden;
+	position: relative;
+	padding-left: 15px;
+	white-space: nowrap;
+}
+
+.crm-project-header-title {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 52px;
+	max-width: 95%;
+	overflow: hidden;
+	/*padding:0 28px 0 7px;*/
+	position: relative;
+	vertical-align: top;
+}
+
+.crm-project-header-title-editable {
+	width: 95%;
+}
+
+.crm-project-header-company-title .crm-project-header-title {
+	max-width: 100%;
+}
+
+.crm-project-header-title:before {
+	display: inline-block;
+	content: '';
+	height: 52px;
+	margin-left: -1px;
+	vertical-align: middle;
+	width: 1px;
+}
+
+.crm-project-header-company-title {
+	overflow: hidden;
+}
+
+.crm-project-header-title-text {
+	display: inline-block;
+	max-width: 100%;
+	font-size: 18px;
+	font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
+	line-height: 20px;
+	max-height: 43px;
+	vertical-align: middle;
+	white-space: normal;
+}
+
+.crm-project-header-title-edit {
+	background: url(../images/crm-control-panel-sprite-26.png) no-repeat center -4438px;
+	border-radius: 50%;
+	display: none;
+	height: 24px;
+	margin-top: -12px;
+	opacity: 0.6;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 24px;
+}
+
+.crm-project-header-title-editable .crm-project-header-title-edit {
+	background-color: #b6d4e1;
+	display: block;
+	opacity: 1;
+}
+
+.crm-project-header-icon {
+	background: url(../images/crm-control-panel-sprite-26.png) no-repeat 100px 100px #fff;
+	border-radius: 50%;
+	height: 39px;
+	left: 14px;
+	top: 7px;
+	position: absolute;
+	width: 39px;
+}
+
+.crm-project-header-img {
+	display: inline-block;
+	border-radius: 50%;
+	height: 33px;
+	margin: 11px 5px 0 0;
+	vertical-align: top;
+	overflow: hidden;
+	width: 33px;
+}
+
+.crm-project-header-img img,
+.crm-project-header-company-img img {
+	border: none;
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.crm-project-header-company-img {
+	background-color: #fff;
+	border: 1px solid #abc9d3;
+	float: left;
+	height: 32px;
+	margin: 9px 10px 0 0;
+	min-width: 35px;
+}
+
+.crm-header-project-inp {
+	height: 30px;
+	background-color: #fff;
+	border: 1px solid #bcc0c2;
+	border-radius: 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #000;
+	margin: 11px 0 0 -6px;
+	font-size: 18px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	outline: none;
+	padding: 0 5px;
+	vertical-align: top;
+	width: 100%;
+}
+
+.crm-project-header-offer .crm-project-header-icon {
+	background-position: center -3678px;
+}
+
+.crm-project-header-table-lid .crm-project-header-icon {
+	background-position: center -3866px;
+}
+
+.crm-project-header-table-contact .crm-project-header-icon {
+	background-position: center -4372px;
+}
+
+.crm-project-header-table-bill .crm-project-header-icon {
+	background-position: center -3941px;
+}
+
+.crm-project-header-table-deal .crm-project-header-icon {
+	background-position: center -4015px;
+}
+
+.crm-project-header-table-company .crm-project-header-icon {
+	background-position: center -4275px;
+	margin-right: 10px;
+}
+
+.crm-project-header-icon img {
+	border: none;
+	border-radius: 50%;
+}
+
+.crm-project-header-status {
+	display: block;
+	padding-top: 4px;
+	max-width: 350px;
+}
+
+.crm-project-header-status-title {
+	color: #828b93;
+	display: block;
+	margin-bottom: 3px;
+	font-size: 11px;
+}
+
+.crm-project-header-status-scale {
+	background-color: #fff;
+	border-radius: 2px;
+	border: 1px solid #cfd6da;
+	display: block;
+	height: 8px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.crm-project-header-status-scale-inner {
+	border: 1px solid;
+	border-right: none;
+	border-radius: 2px 0 0 2px;
+	height: 8px;
+	left: -1px;
+	position: absolute;
+	top: -1px;
+}
+
+.crm-project-header-status-blue .crm-project-header-status-scale-inner {
+	background-color: #4a99da;
+	border: 1px solid #3e8dcf;
+}
+
+.crm-project-header-status-sum {
+	color: #909090;
+	display: block;
+	margin-top: 3px;
+	font-size: 11px;
+	text-align: right;
+}
+
+.crm-project-header-status-sum-num {
+	color: #000;
+}
+
+.crm-project-header-table-company .crm-project-header-header-center {
+	width: 40%;
+}
+
+.crm-project-header-table-company .crm-project-header-header-left .crm-project-header-contact {
+	display: inline-block;
+	margin-top: 8px;
+}
+
+.crm-project-header-table-lid .crm-project-header-contact-link {
+	padding-left: 0;
+}
+
+.crm-project-header-header .crm-project-header-contact a.crm-project-header-contact-name,
+.crm-project-header-header .crm-project-header-contact span.crm-project-header-contact-name {
+	display: inline-block;
+	color: #000;
+	font-size: 15px;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+
+.crm-project-header-offer a.crm-project-header-contact-name {
+	border-bottom: 1px solid transparent;
+}
+
+.crm-project-header-contact-btns {
+	height: 33px;
+	right: 3%;
+	padding-left: 10px;
+	position: absolute;
+}
+
+.crm-project-header-contact-btn {
+	background: url(../images/crm-control-panel-sprite-26.png) no-repeat 100px;
+	display: inline-block;
+	cursor: pointer;
+	height: 37px;
+	margin-top: -2px;
+	opacity: 0.8;
+	vertical-align:top;
+	width: 27px;
+}
+
+
+.crm-project-header-header-right {
+	float: right;
+	position: relative;
+	width: 35%;
+}
+
+.crm-project-header-table-company .crm-project-header-header-right {
+	width: 15%;
+}
+
+.crm-project-header-right-inner {
+	position: relative;
+	padding-right: 120px;
+}
+
+.crm-project-header-contact-btn-menu {
+	background-position: center -3722px;
+}
+
+.crm-project-header-contact-btn-pin {
+	background-position: center -3752px;
+}
+
+.crm-project-header-contact-btn-unpin {
+	background-position: center -4168px;
+}
+
+.crm-project-header-contact-btn-close {
+	background-position: center -3785px;
+}
+.crm-project-header-contact-btn-open {
+	background-position: center -3814px;
+}
+
+.crm-project-header-company-icon img {
+	border: none;
+	display: block;
+	max-width: 80px;
+	max-height: 35px;
+	margin: 0 auto;
+	min-height: 39px;
+	min-width: 39px;
+}
+
+.crm-project-header-header-right .crm-project-header-contact-link {
+	display: inline-block;
+	overflow: visible;
+	vertical-align: top;
+	padding: 0;
+}
+
+.crm-project-header-table-lid .crm-project-header-header-right .crm-project-header-contact-name {
+	margin-top: 8px;
+}
+
+.crm-project-header-white {
+	background-color: #fff;
+	height: 2px;
+	padding: 0;
+}
+
+.crm-project-header-blue {
+	background-color: #e2f5fc;
+	height: 12px;
+	padding: 0;
+}
+
+.crm-project-header-cell {
+	padding: 0;
+	background-color: #e2f5fc;
+	vertical-align: top;
+	width: 50%;
+}
+
+.crm-project-header-cell.project-col-1 {
+	border: none;
+	padding: 0 0 0 15px;
+}
+
+.crm-project-header-cell.project-col-2 {
+	border: none;
+	padding: 0 15px 0 0;
+}
+
+.crm-project-header-inner-table {
+	border: none;
+	border-spacing: 0;
+	min-height: 30px;
+	width: 100%;
+}
+
+
+.crm-project-header-inner-cell {
+	color: #535c69;
+	cursor: default;
+	font-size: 13px;
+	font-weight: bold;
+	vertical-align:middle;
+	padding: 10px 0 10px;
+	width: 100%;
+	line-height: 17px;
+	word-break: break-all;
+	-webkit-transition: background-color 0.2s linear;
+	transition: background-color 0.2s linear;
+}
+
+.crm-project-header-inner-cell-title {
+	color: #535c69;
+	font-weight: normal;
+	padding-right: 10px;
+	width: 20%;
+	padding-left: 10px;
+	word-break: normal;
+	line-height: 17px;
+	vertical-align: middle;
+}
+
+.crm-project-header-comments .crm-project-header-inner-cell-title {
+	width: 0;
+}
+
+.crm-project-header-com-cell {
+	width: 100%;
+}
+
+.crm-project-header-inner-cell-move {
+	min-width: 27px;
+	vertical-align: top;
+	padding: 0;
+	width: 27px;
+}
+
+.crm-project-header-inner-move-btn {
+	background: #BAD7E2 url(../images/crm-control-panel-sprite-26.png) no-repeat center -4088px;
+	cursor: move;
+	height: 27px;
+	margin-top: 0;
+	width: 27px;
+	opacity:0;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+
+.crm-project-header-inner-cell-del {
+	min-width: 27px;
+	padding: 0;
+	width: 24px;
+}
+
+.crm-project-header-inner-del-btn,
+.crm-project-header-inner-edit-btn {
+	background: url(../images/crm-control-panel-sprite-26.png) no-repeat center -4133px;
+	cursor: pointer;
+	height: 27px;
+	width: 27px;
+	opacity:0;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.crm-project-header-inner-edit-btn {
+	background-position: center -4333px;
+}
+
+.crm-project-header-edit-field,
+.crm-project-header-edit-inp {
+	border: 1px solid #bcc0c2;
+	color: #535c69;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	margin: -6px -3px -6px -6px;
+	outline: none;
+	padding: 5px;
+	position: relative;
+	resize: none;
+	width: 96%;
+}
+
+.crm-project-header-edit-inp {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.crm-project-header-inner-editable .crm-project-header-inner-cell {
+	background-color: #d3e8f0;
+}
+
+.crm-project-header-inner-table .crm-item-table-date {
+	color: #535c69;
+	height: 27px;
+	font-weight: bold;
+	margin: -6px -3px -5px -6px;
+}
+
+.crm-project-header-inner-table .crm-item-table-select {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	display: block;
+	border-radius: 0;
+	color: #535c69;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	margin: -6px -3px -6px -6px;
+	height: 16px;
+	padding: 5px;
+}
+
+.crm-project-header-inner-table .crm-item-table-select option {
+	margin: 0;
+	padding: 3px 0;
+}
+
+.crm-project-header-lhe-view-wrapper {
+	max-height: 250px;
+	overflow: auto;
+}
+
+.crm-project-header-boolean-edit-wrapper {
+	height: 16px;
+}
+
+.crm-project-header-boolean-edit-wrapper label,
+.crm-project-header-boolean-edit-wrapper input {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+.crm-project-header-drag-zone {
+	padding: 4px;
+}
+
+.crm-project-header-drag-zone .crm-project-header-drag-zone-bd {
+	border: 2px dashed #b0babd;
+	border-radius: 2px;
+	height: 42px;
+
+	/*-webkit-transition: height 0.3s linear;
+	transition: height 0.3s linear;*/
+}
+
+.crm-project-header-drag-zone .crm-project-header-drag-zone-bd-inactive {
+	border: 2px dashed transparent;
+	height: 20px;
+}
+
+.crm-project-fly-item {
+	background-color: rgba(227, 232, 234, 0.9);
+	cursor: move;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	min-height: 50px;
+	min-width: 380px;
+	padding: 0 0 0 3px;
+	position: absolute;
+	z-index: 989;
+}
+
+.crm-offer-main-info-text .crm-offer-info-data-wrap:before,
+.crm-offer-info-data-wrap .crm-fld-block-readonly:before {
+	content: '';
+	display: inline-block;
+	margin-left: -1px;
+	height: 27px;
+	vertical-align: middle;
+	width: 1px;
+}
+
+.crm-offer-main-info-text div.bx-crm-edit-user-field,
+.crm-offer-main-info-text div.crm-fld-block-readonly {
+	display: inline-block;
+	vertical-align: middle;
+	min-height: 1px;
+}
+
+.crm-offer-main-info-text .crm-detail-info-resp {
+	display: inline-block;
+	height: 30px;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+
+.crm-offer-main-info-text .crm-detail-info-resp-img {
+	top: 0;
+}
+
+.crm-offer-main-info-text .crm-tel-btn {
+	margin-top: 2px;
+	vertical-align: top;
+}
+
+.crm-offer-main-info-text .crm-item-tel {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.crm-project-header-inf-block {
+	font-weight: normal;
+	padding: 0;
+}
+/***FIXES****/
+a.crm-project-header-table-placeholder {
+	position: relative;
+	margin-bottom: 20px;
+	z-index: 1000;
+}
+.crm-project-header-table-wrap-fixed {
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 988; /*behind of task popup*/
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.crm-project-header-cell {
+	height: 100%; /*fix: darag&drop*/
+}
+
+.crm-project-header-inner-table {
+	min-height: 30px;
+}
+
+div.crm-project-header-lhe-view-wrapper p {
+	margin: 0;
+	padding: 0;
+}
+
+div.crm-project-header-enumeration-wrapper  {
+	margin: 0 10px 0 0;
+}
+
+.crm-project-fly-item .crm-project-header-inner-move-btn
+{
+	visibility: visible;
+}
+
+.crm-project-fly-item .crm-project-header-inner-cell
+{
+	cursor: move;
+}
+/*================================== START OF QUICK PANEL ====================================*/
+.crm-dup-control-type-radio-title {
+	color: #555555;
+	margin-bottom: 17px;
+	padding-left: 5px;
+}
+
+.crm-dup-control-type-radio-wrap {
+	padding-left: 5px;
+}
+
+.crm-dup-control-type-radio {
+	vertical-align: middle;
+	margin: 0 3px 0 0;
+}
+
+.crm-dup-control-type-label {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 2px 20px 0 0;
+}
+
+.crm-dup-control-type-info {
+	border: 1px solid;
+	border-color: #ede7d9 #eae4d2 #e5dfc9;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+	background-image: -webkit-linear-gradient(top, #fdfbed, #faf6d9);
+	background-image: -moz-linear-gradient(top, #fdfbed, #faf6d9);
+	background-image: -ms-linear-gradient(top, #fdfbed, #faf6d9);
+	background-image: -o-linear-gradient(top, #fdfbed, #faf6d9);
+	background-image: linear-gradient(to bottom, #fdfbed, #faf6d9);
+	color: #352c0c;
+	font-size: 13px;
+	max-width: 470px;
+	margin-top: 20px;
+	padding: 11px 15px 10px;
+}
+
+.crm-offer-info-right span.bx-crm-edit-content-block-element-name {
+	width: auto;
+}
+.crm-offer-info-right .bx-crm-edit-datetime-link {
+	padding-top: 0;
+}
+
+tr.crm-offer-row[draggable="true"] .crm-offer-drg-btn {
+	cursor: move;
+}
+
+tr.crm-offer-row[draggable="false"] .crm-offer-drg-btn {
+	cursor: no-drop;
+}
+
+div.crm-quote-print-popup
+{
+	min-width: 300px;
+}
+
+.bx-scroller-control {
+	display: inline-block;
+	width:16px;
+	cursor: pointer;
+	height: 16px;
+}
+
+.bx-scroller-control.plus {
+	background: url(../images/crm-control-panel-sprite-26.png) no-repeat -20px -3376px;
+}
+.bx-scroller-control.minus {
+	background: url(../images/crm-control-panel-sprite-26.png) no-repeat -20px -3440px;
+}
+
+body table.bx-interface-grid tr.bx-green.bx-odd td, body table.bx-interface-grid tr.bx-green.bx-over td {
+	background-color: #edf3de;
+}
+
+.bx-double-access-denied {
+	color: #d34842;
+	font-size: 12px;
+	line-height: 16px;
+	padding-left: 20px;
+	background: url(../images/crm-control-panel-sprite-26.png) no-repeat -21px -3500px;
+}
+
+.bx-help-icon {
+	background: url(../images/crm-control-panel-sprite-26.png) no-repeat -18px -3549px;
+	width:19px;
+	height:21px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+div.message {
+	background: #baed21;
+	width: 100%;
+	margin: 0 0 20px 0;
+	position: relative;
+}
+
+div.message span.crm-offer-title-set-wrap {
+	top: 5px;
+}
+
+div.message span.message-content {
+	display: inline-block;
+	margin: 15px;
+	font-size: 15px;
+}
+
+table.project-detail-container {
+
+}
+
+table.project-detail-container tr:nth-child(odd) td{
+   background-color: #e2f5fc;
+}
+table.project-detail-container tr:nth-child(even) td{
+   background-color: #d3ecf7;
+}
+
+table.project-detail-container tr td {
+	padding: 10px 0px;
+}
+table.project-detail-container tr td.project-detail-label {
+	color: #535c69;
+	font-weight: bold;
+	font-size: 14px;
+	width: 140px;
+	padding-left: 5px;
+	word-break: normal;
+	line-height: 17px;
+	vertical-align: middle;
+}
+table.project-detail-container tr td.project-detail-value {
+	color: #535c69;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 10px;
+	word-break: normal;
+	line-height: 17px;
+	vertical-align: middle;
+}
+
+/*#*/

@@ -1,0 +1,291 @@
+#planner_main .bx-planner-content .tm-popup-tasks .tm-task-list {
+	display: none;
+}
+
+.tm-calendar-week-name {
+	width: 42px;
+    height: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: -0.2px;
+    color: #565e6a;
+    margin-right: 8px;
+}
+
+.tm-calendar-left-button {
+    background: url(/assets/img/plannericons.png) 0 1px;
+    width: 9px;
+    height: 20px;
+    position: absolute;
+    margin-top: -1px;
+    margin-left: 1px !important;
+}
+
+.tm-calendar-right-button {
+    background: url(/assets/img/plannericons.png) -9px 1px;
+    width: 9px;
+    height: 20px;
+    position: absolute;
+    margin-top: -1px;
+    margin-left: 5px;
+}
+
+.tm-calendar-left-button,
+.tm-calendar-right-button {
+	width: 11px;
+    height: 16px;
+    color: #868c95;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.tm-calendar-number-text{
+	width: 9px;
+	height: 15px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	line-height: 1;
+	letter-spacing: -0.2px;
+	color: #898f96;
+    margin-left: 16px;
+}
+
+.tm-calendar-week-range{
+	width: 145px;
+	height: 15px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	line-height: 1;
+	letter-spacing: -0.2px;
+	color: #898f96;
+    margin-left: 24px;
+	border: none;
+}
+
+body .tm-popup-content {
+	width: 96% !important;
+    height: 90%;
+}
+
+#planner_main .popup-window-angly-top {
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: -22px;
+    left: 45% !important;
+}
+
+.tm-tab-content {
+	height: 100%;
+}
+
+.tm-calendar-form {
+    float: left;
+    width: 50%;
+}
+
+.tm-week-emp{
+	margin: 18px 0px;
+    height: 18px;
+}
+
+#calendar-form-icon {
+	position: absolute;
+    width: 17px;
+    margin-top: -2px;
+}
+
+.tm-employee-form{
+	float: right;
+}
+
+.tm-employee-header{
+	width: 95px;
+    height: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: -0.2px;
+    color: #565e6a;
+    margin-right: 15px;
+}
+
+.tm-employee-name{
+	width: 111px;
+    height: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: -0.2px;
+    color: #898f96;
+    border-bottom: 1px gray dashed;
+}
+
+.tm-popup-task-form {
+	margin: 22px 0 0;
+}
+
+.tm-popup-task-form-textbox.tm-popup-date{
+	width: 261px !important;
+    border-radius: 3px !important;
+    background-color: #ffffff;
+    border: solid 1px #c4cdd4 !important;
+    font-size: 14px !important;
+    line-height: 0.88 !important;
+    letter-spacing: -0.2px;
+    color: #565e6a !important;
+    float: left;
+    margin-right: 20px;
+}
+
+.tm-popup-task-form-textbox{
+	width: 210px !important;
+}
+
+.tm-popup-hour{
+	font-size: 13px !important;
+    line-height: 0.88 !important;
+    letter-spacing: -0.2px;
+    color: #565e6a !important;
+    margin-right: 15px;
+}
+
+.tm-popup-task-form-textbox.tm-popup-hourslog {
+	width: 35px !important;
+    margin-right: 15px;
+    font-size: 15px !important;
+    line-height: 0.88 !important;
+    letter-spacing: -0.2px;
+    color: #565e6a !important;
+}
+
+.tm-popup-event-start-time-textbox,
+.tm-popup-event-end-time-textbox,
+.tm-popup-event-form-options {
+	display: none;
+}
+
+.tm-popup-event-form-textbox{
+	width: 540px !important;
+}
+
+/*.tm-popup-date-dropdown-icon {
+	background: url(/assets/img/plannericons.png);
+    width: 20px;
+    height: 18px;
+    z-index: 999999999999999;
+    position: absolute;
+    left: 39%;
+    top: 55%;
+    background-position: 1px;
+}*/
+.tm-dealtask-list {
+	max-height: 375px;
+	overflow-y: auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.tm-dealtask-ajax-loader{
+	background: url(/assets/img/loader.gif) no-repeat;
+    width: 205px;
+    height: 200px;
+    display: none;
+    margin: 0 auto;
+}
+
+.tm-dealtask-list-container{
+    margin: 3% 0 0;
+}
+
+.tm-timetable-logs {
+    width: 100%;
+    border: solid 2px #f7f9fa;
+    table-layout: fixed;
+}
+
+.tm-timetable-logs th,
+.tm-timetable-logs td {
+    padding: 10px;
+    text-align: left;
+}
+
+.tm-timetable-logs th {
+    color: #565e6a;
+}
+
+.tm-timetable-logs td {
+    color: #565e6a;
+}
+
+.tm-timetable-logs tbody {
+    max-height: 260px;
+    display: inline-block;
+    width: 602px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.crm-lead-header-inner-edit-btn-popup {
+    float: left !important;
+    margin-left: -29px;
+    display: block;
+    background: url(/bitrix/js/crm/images/crm-control-panel-sprite-26.png) no-repeat center -3129px;
+    cursor: pointer;
+    height: 21px;
+    width: 29px;
+    margin-top: -4px;
+    opacity: 1 !important;
+    transition: all 200ms ease;
+    float: right;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.crm-lead-header-inner-check-btn-popup {
+    float: left !important;
+    margin-left: -29px;
+    display: block;
+    background: url(/bitrix/js/crm/images/crm-control-panel-sprite-26.png) no-repeat center -1813px;
+    cursor: pointer;
+    height: 21px;
+    width: 25px;
+    margin-top: 2px;
+    opacity: 1 !important;
+    transition: all 200ms ease;
+    float: right;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+
+}
+
+.tm-popup-event-list {
+    display: none;
+}
+
+.ui-widget-content {
+    z-index: 99999999999999;
+}
+
+.commentinputtext{
+    width: 100%;
+    font: 14px/normal "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tm-popup-event-form-input-submit{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    width: 0px;
+}

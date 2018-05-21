@@ -1,0 +1,12 @@
+<?
+$MESS["TASKS_TTDP_TEMPLATE_PROJDEP_DELETE"] = "Eliminar";
+$MESS["TASKS_TTDP_TEMPLATE_PROJDEP_COL_RELATED"] = "Tareas previas";
+$MESS["TASKS_TTDP_TEMPLATE_PROJDEP_COL_REL_TYPE"] = "Acción";
+$MESS["TASKS_TTDP_TEMPLATE_PROJDEP_WHEN_START"] = "se iniciará";
+$MESS["TASKS_TTDP_TEMPLATE_PROJDEP_WHEN_END"] = "se finalizará";
+$MESS["TASKS_TTDP_TEMPLATE_PROJDEP_CURRENT_TASK"] = "Tareas actuales";
+$MESS["TASKS_TTDP_TEMPLATE_PROJDEP_WHEN"] = "cuando";
+$MESS["TASKS_TTDP_TEMPLATE_PROJDEP_ADD"] = "Agregar tarea anterior";
+$MESS["TASKS_TTDP_LICENSE_TITLE"] = "Links de tareas";
+$MESS["TASKS_TTDP_LICENSE_BODY"] = "Links de las tareas están disponibles en planes ampliados.";
+?>

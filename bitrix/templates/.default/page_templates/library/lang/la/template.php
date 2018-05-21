@@ -1,0 +1,37 @@
+<?
+$MESS["library_wizard_name"] = "Documento de la biblioteca";
+$MESS["library_wizard_title"] = "Sección del documento de la biblioteca (SEF)";
+$MESS["library_wizard_settings"] = "Configuraciones del documento de la biblioteca ";
+$MESS["library_wizard_lib_name"] = "Nombre del documento de la biblioteca:";
+$MESS["library_wizard_lib_name_val"] = "Documentos comunes";
+$MESS["library_wizard_iblock_type"] = "Tipo de block de información:";
+$MESS["library_wizard_iblock"] = "Block de información de los documentos:";
+$MESS["library_wizard_iblock_new"] = "Crear nuevo block de información";
+$MESS["library_wizard_iblock_select"] = "Seleccionar un block de información existente";
+$MESS["library_wizard_group_select"] = "(seleccionar un grupo)";
+$MESS["library_wizard_perm_read"] = "Leer";
+$MESS["library_wizard_perm_bp"] = "Proceso de negocio";
+$MESS["library_wizard_perm_write"] = "Escribir";
+$MESS["library_wizard_perm_iblock"] = "Permisos de acceso del block de información";
+$MESS["library_wizard_perm_add"] = "Agregar permiso de acceso";
+$MESS["library_wizard_tags"] = "Nube de etiqueta";
+$MESS["library_wizard_tags_show"] = "Mostrar etiquetas:";
+$MESS["library_wizard_tags_num"] = "Número de etiquetas:";
+$MESS["library_wizard_comments"] = "Configuración de comentarios";
+$MESS["library_wizard_comments_allow"] = "Permitir comentarios:";
+$MESS["library_wizard_forum"] = "Foro para comentarios";
+$MESS["library_wizard_forum_new"] = "Crear nuevo foro";
+$MESS["library_wizard_forum_select"] = "Seleccionar un foro existente";
+$MESS["library_wizard_perm_forum_read"] = "Leer";
+$MESS["library_wizard_perm_forum_write"] = "Escribir";
+$MESS["library_wizard_perm_forum"] = "Permisos de acceso para los comentarios del foro";
+$MESS["library_wizard_forum_name"] = "Comentarios de la biblioteca de los documentos";
+$MESS["library_wizard_perm_folder"] = "Permisos de las carpetas";
+$MESS["library_wizard_lib_resource"] = "Fuente de la base de datos";
+$MESS["library_wizard_lib_resource_folder"] = "Carpeta del disco físico";
+$MESS["library_wizard_lib_resource_iblock"] = "Block de información";
+$MESS["library_wizard_path_to_folder"] = "Ruta de la carpeta (relativa a la raíz del sitio)";
+$MESS["library_wizard_path_to_folder_error1"] = "La ruta debe empezar con '/'.";
+$MESS["library_wizard_path_to_folder_error2"] = "/bitrix/ no puede almacenar la carpeta.";
+$MESS["library_wizard_iblock_name_error1"] = "El nombre de la biblioteca no contiene los siguientes caracteres: /\\:*?|{}%&~";
+?>

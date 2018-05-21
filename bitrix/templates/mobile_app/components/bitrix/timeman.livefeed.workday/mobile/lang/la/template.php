@@ -1,0 +1,4 @@
+<?
+$MESS["TIMEMAN_ENTRY_FROM"] = "De";
+$MESS["TIMEMAN_ENTRY_TO"] = "Para";
+?>

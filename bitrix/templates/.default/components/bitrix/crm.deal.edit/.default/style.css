@@ -1,0 +1,87 @@
+table.bx-edit-table td.bx-padding {
+	padding-top: 6px!important;
+}
+
+table#tab_bizproc_edit_table td.field-name {
+	width: 26% !important;
+}
+
+table#tab_bizproc_edit_table tr:nth-of-type(2)  {
+	display: none;
+}
+
+table#tab_bizproc_edit_table tr:nth-of-type(3) td {
+	background-image: none !important;
+}
+
+.bx-crm-edit-content-location-description {
+	color: #8F8F8F;
+	font-size: 11px;
+}
+
+.bx-crm-edit-content-block-element .search-suggest {
+	position: relative;
+	left: -4px;
+}
+.popup_project {
+
+}
+.popup_project .bx-core-adm-dialog-head {
+    height: auto;
+    border: 1px solid #e8eff2;
+    background-color: #e3f0f6;
+}
+.popup_project .bx-core-adm-dialog-head-inner {
+    font-size: 20px;
+    padding: 15px 0;
+    margin: 0 20px;
+    text-transform: capitalize;
+}
+.popup_project .bx-core-adm-dialog-head-icons, .popup_project .bx-core-adm-icon-close {
+    background-color: #e3f0f6;
+}
+.popup_project .bx-core-adm-dialog-content {
+    background: none;
+    border: none;
+    overflow: hidden;
+}
+.popup_project .bx-core-adm-dialog .bx-core-adm-dialog-content-wrap-inner {
+    padding: 12px 5px;
+}
+#popup_content .content_text {
+    color: #7c838e;
+    font-size: 14px;
+    margin: 0 10px 20px;
+}
+#popup_content button {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #bbed21;
+    border: none;
+    font-size: 13px;
+    color: #8d939c;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#popup_content hr {
+    border: none;
+    background-color: #edf5f9;
+    margin: 15px 0;
+    height: 1px;
+}
+#popup_content .popup_field {
+    border: 1px solid #cfd9e0;
+    width: 100%;
+    padding: 3px 0;
+    text-indent: 10px;
+    color: #818892;
+    font-size: 14px;
+    height: 35px;
+    margin-top: 20px;
+}
+.popup_project .bx-core-adm-dialog-head-inner {
+    padding: 3px 0;
+}
