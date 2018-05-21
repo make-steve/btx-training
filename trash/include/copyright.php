@@ -1,0 +1,1 @@
+Copyright &copy; 2001-2010 Bitrix, Inc., Erstellt mit Bitrix Intranet

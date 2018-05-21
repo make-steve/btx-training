@@ -1,0 +1,30 @@
+.external-style { margin-top: 5%; text-align: center; padding: 20px; }
+.external-style.yellow { background-color: yellow }
+
+.external-style button { 
+	border: 5px solid black; 
+	background: #fff; 
+	color: gray; 
+	padding: 25px 35px; 
+	font-size: 22px; 
+	cursor: pointer; 
+	border-radius: 10px; 
+	width: 180px; 
+	margin: 0 10px; 
+	border-color: gray;
+}
+
+.external-style .gray { color: gray; border-color: gray; }
+.external-style .gray:hover { color: white; background-color: gray; }
+
+.external-style .blue { color: blue; border-color: blue; }
+.external-style .blue:hover { color: white; background-color: blue; }
+
+.external-style .green { color: green; border-color: green; }
+.external-style .green:hover { color: white; background-color: green; }
+
+.external-style .orange { color: orange; border-color: orange; }
+.external-style .orange:hover { color: white; background-color: orange; }
+
+.external-style .red { color: red; border-color: red; }
+.external-style .red:hover { color: white; background-color: red; }

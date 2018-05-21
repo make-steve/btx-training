@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О компании", 
+		"/extranet/about/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/extranet/about/contacts.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Реквизиты", 
+		"/extranet/about/bank_info.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Подписка", 
+		"/extranet/about/subscribe.php", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,1 @@
+<img src="/include/default_logo.jpg"  />
