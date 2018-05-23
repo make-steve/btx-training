@@ -320,41 +320,40 @@ if(\Bitrix\Main\ModuleManager::isModuleInstalled('bitrix24'))
 						?>
 					</div>
 
-					<?$APPLICATION->IncludeComponent("bitrix:search.title", "search_title", Array(
-	"NUM_CATEGORIES" => "5",	// Number Of Search Categories
-		"TOP_COUNT" => "5",	// Results Per Category
-		"CHECK_DATES" => "N",	// Search only in documents active on date of search
-		"SHOW_OTHERS" => "Y",	// Show "Misc." Category
-		"PAGE" => "#SITE_DIR#search/index.php",	// Search results page (#SITE_DIR# macro is available)
-		"CATEGORY_0_TITLE" => GetMessage("BITRIX24_SEARCH_EMPLOYEE"),	// Category Name
-		"CATEGORY_0" => array(	// Restrict search area to
-			0 => "custom_users",
-		),
-		"CATEGORY_1_TITLE" => GetMessage("BITRIX24_SEARCH_GROUP"),	// Category Name
-		"CATEGORY_1" => array(	// Restrict search area to
-			0 => "custom_sonetgroups",
-		),
-		"CATEGORY_2_TITLE" => GetMessage("BITRIX24_SEARCH_MENUITEMS"),	// Category Name
-		"CATEGORY_2" => array(	// Restrict search area to
-			0 => "custom_menuitems",
-		),
-		"CATEGORY_3_TITLE" => "CRM",	// Category Name
-		"CATEGORY_3" => array(	// Restrict search area to
-			0 => "crm",
-		),
-		"CATEGORY_4_TITLE" => GetMessage("BITRIX24_SEARCH_MICROBLOG"),	// Category Name
-		"CATEGORY_4" => array(	// Restrict search area to
-			0 => "microblog",
-			1 => "blog",
-		),
-		"CATEGORY_OTHERS_TITLE" => GetMessage("BITRIX24_SEARCH_OTHER"),	// Category Name
-		"SHOW_INPUT" => "N",
-		"INPUT_ID" => "search-textbox-input",	// Search Query Input Element ID
-		"CONTAINER_ID" => "search",	// Layout Container ID (to confine search results by width)
-		"USE_LANGUAGE_GUESS" => (LANGUAGE_ID=="ru")?"Y":"N",	// Autodetect Keyboard Layout
-	),
-	false
-);
+					<?$APPLICATION->IncludeComponent("bitrix:search.title", ".default", Array(
+						"NUM_CATEGORIES" => "5",
+						"TOP_COUNT" => "5",
+						"CHECK_DATES" => "N",
+						"SHOW_OTHERS" => "Y",
+						"PAGE" => "#SITE_DIR#search/index.php",
+						"CATEGORY_0_TITLE" => GetMessage("BITRIX24_SEARCH_EMPLOYEE"),
+						"CATEGORY_0" => array(
+							0 => "custom_users",
+						),
+						"CATEGORY_1_TITLE" => GetMessage("BITRIX24_SEARCH_GROUP"),
+						"CATEGORY_1" => array(
+							0 => "custom_sonetgroups",
+						),
+						"CATEGORY_2_TITLE" => GetMessage("BITRIX24_SEARCH_MENUITEMS"),
+						"CATEGORY_2" => array(
+							0 => "custom_menuitems",
+						),
+						"CATEGORY_3_TITLE" => "CRM",
+						"CATEGORY_3" => array(
+							0 => "crm",
+						),
+						"CATEGORY_4_TITLE" => GetMessage("BITRIX24_SEARCH_MICROBLOG"),
+						"CATEGORY_4" => array(
+							0 => "microblog", 1 => "blog",
+						),
+						"CATEGORY_OTHERS_TITLE" => GetMessage("BITRIX24_SEARCH_OTHER"),
+						"SHOW_INPUT" => "N",
+						"INPUT_ID" => "search-textbox-input",
+						"CONTAINER_ID" => "search",
+						"USE_LANGUAGE_GUESS" => (LANGUAGE_ID == "ru") ? "Y" : "N"
+						),
+						false
+					);
 
 					$profileLink = $isExtranet ? SITE_DIR."contacts/personal" : SITE_DIR."company/personal";
 					$APPLICATION->IncludeComponent(
@@ -396,22 +395,25 @@ if(\Bitrix\Main\ModuleManager::isModuleInstalled('bitrix24'))
 			<table class="bx-layout-inner-table<?=$leftColumnClass?>">
 				<tr class="bx-layout-inner-top-row">
 					<td class="bx-layout-inner-left" id="layout-left-column">
-						<?$APPLICATION->IncludeComponent("bitrix:menu", "left_menu", Array(
-	"ROOT_MENU_TYPE" => file_exists($_SERVER["DOCUMENT_ROOT"].SITE_DIR.".superleft.menu_ext.php")?"superleft":"top",	// Menu type for root level
-		"CHILD_MENU_TYPE" => "left",	// Menu type for child levels
-		"MENU_CACHE_TYPE" => "Y",	// Cache type
-		"MENU_CACHE_TIME" => "604800",	// Cache time (sec.)
-		"MENU_CACHE_USE_GROUPS" => "N",	// Respect Access Permissions
-		"MENU_CACHE_USE_USERS" => "Y",
-		"CACHE_SELECTED_ITEMS" => "N",
-		"MENU_CACHE_GET_VARS" => "",	// Important query variables
-		"MAX_LEVEL" => $isExtranet?"1":"2",	// Menu depth level
-		"USE_EXT" => "Y",	// Use files .menu-type.menu_ext.php for menus
-		"DELAY" => "N",	// Delay building of menu template
-		"ALLOW_MULTI_SELECT" => "N",	// Allow several menu items to be highlighted as active
-	),
-	false
-);
+						<?$APPLICATION->IncludeComponent(
+							"bitrix:menu",
+							"left_vertical",
+							array(
+								"ROOT_MENU_TYPE" => file_exists($_SERVER["DOCUMENT_ROOT"].SITE_DIR.".superleft.menu_ext.php") ? "superleft" : "top",
+								"CHILD_MENU_TYPE" => "left",
+								"MENU_CACHE_TYPE" => "Y",
+								"MENU_CACHE_TIME" => "604800",
+								"MENU_CACHE_USE_GROUPS" => "N",
+								"MENU_CACHE_USE_USERS" => "Y",
+								"CACHE_SELECTED_ITEMS" => "N",
+								"MENU_CACHE_GET_VARS" => array(),
+								"MAX_LEVEL" => $isExtranet ? "1" : "2",
+								"USE_EXT" => "Y",
+								"DELAY" => "N",
+								"ALLOW_MULTI_SELECT" => "N"
+							),
+							false
+						);
 
 						if ($imBarExists)
 						{
